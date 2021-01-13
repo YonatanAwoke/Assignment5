@@ -1,0 +1,23 @@
+header{
+    font-size: 20px;
+    padding: 30px;
+    color: #3f3f3f;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+}
+.collapse navbar-collapse:hover{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 270px;
+    
+}
+#me{
+    background-image: url(image/model.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
