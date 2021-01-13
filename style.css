@@ -1,23 +1,90 @@
 header{
-    font-size: 20px;
-    padding: 30px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
     color: #3f3f3f;
     text-transform: uppercase;
     letter-spacing: 2.1px;
-}
-.collapse navbar-collapse:hover{
-    background-color: black;
-}
-h1{
-    text-align: center;
-    font-size: 60px;
-    font-weight: bolder;
-    padding: 270px;
     
 }
-#me{
-    background-image: url(image/model.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+nav ul li a{
+    margin: 10px;
+}
+nav ul li:hover{
+    background-color: grey;
+    text-decoration-color: white;
+}
+.banner{
+    height: 500px;
+    position: relative;
     width: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 120%;
+    padding-top: 0px;
+    
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder.;
+  }
+.content h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
+    padding-top: 300px;
+    font-family: proxima-nova,Sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
+.content::before{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 125px;
+    bottom: -50px;
+    left: 0;
+    background:#fff;
+    transform: skewY(9deg);
+}
+.content::after{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 125px;
+    bottom: -50px;
+    right: 0;
+    background:#fff;
+    transform: skewY(-9deg);
+}
+.col-lg-6 h1{
+    font-size: 30px;
+    padding-top: 200px;
+    font-weight: bold;
+    font-family:  'Arial Narrow Bold', sans-serif;
+}
+.col-lg-6 p{
+    font-size: 20px;
+    padding: 10px;
+    word-spacing: 5px;
+}
+.btn btn-danger{
+    padding: 50px;
+
+}
+.carousel-inner{
+    padding-top: 150px;
+}
+.carousel-control-prev{
+    padding-top: 200px;
+}
+.carousel-control-next{
+    padding-top: 200px;
 }
