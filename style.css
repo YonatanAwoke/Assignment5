@@ -21,7 +21,7 @@ nav ul li:hover{
 }
 .banner img{
     width: 100%;
-    height: 120%;
+    height: 130%;
     padding-top: 0px;
     
 }
@@ -47,22 +47,22 @@ nav ul li:hover{
 .content::before{
     position: absolute;
     content: '';
-    width: 60%;
+    width: 62%;
     height: 125px;
     bottom: -50px;
     left: 0;
     background:#fff;
-    transform: skewY(9deg);
+    transform: skewY(10deg);
 }
 .content::after{
     position: absolute;
     content: '';
-    width: 60%;
+    width: 62%;
     height: 125px;
     bottom: -50px;
     right: 0;
     background:#fff;
-    transform: skewY(-9deg);
+    transform: skewY(-10deg);
 }
 .col-lg-6 h1{
     font-size: 30px;
@@ -87,4 +87,24 @@ nav ul li:hover{
 }
 .carousel-control-next{
     padding-top: 200px;
+}
+.col-lg-8 h1{
+    font-size: 30px;
+    padding-top: 200px;
+    font-weight: bold;
+    font-family: 'Arial Narrow Bold',sans-serif;
+}
+.card{
+    padding: 50px;
+    padding-top: 100px;
+    border: #fff;
+   
+}
+.hobby{
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: bold;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-left: 700px;
 }
