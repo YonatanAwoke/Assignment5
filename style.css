@@ -1,4 +1,4 @@
-header{
+#head{
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 25px;
@@ -32,7 +32,7 @@ nav ul li:hover{
     transform: translate(-50%, -50%);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder.;
+    font-weight: bolder;
   }
 .content h2{
     font-size: 40px;
@@ -94,17 +94,87 @@ nav ul li:hover{
     font-weight: bold;
     font-family: 'Arial Narrow Bold',sans-serif;
 }
+
+
+
 .card{
-    padding: 50px;
-    padding-top: 100px;
+    padding: 20px;
+    padding-top: 70px;
     border: #fff;
+    display: flex;
+    flex-direction: column;
+    
    
 }
 .hobby{
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 200px;
     font-weight: bold;
     font-family:  'Arial Narrow Bold', sans-serif;
     text-align: center;
-    margin-left: 700px;
+    margin-left: 150px;
+}
+footer{
+    padding-top: 50px;
+}
+.bann img{
+    width: 100%;
+    padding-top: 0px;
+} 
+.center{
+    position: absolute;
+    top: 430%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.jumbotron{
+    position: absolute;
+    top: 430%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    width: 1300px;
+    
+}
+h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.para{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.ita{
+    position: absolute;
+    top: 465%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color:white;
+    
+}
+.unordered{
+    list-style-type: none;
+    color: white;
+    position: absolute;
+    top: 465%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+
+}
+.li{
+    display: inline;
+    margin: 25px;
+    color: white;
 }
