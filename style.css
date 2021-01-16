@@ -178,3 +178,24 @@ h3{
     margin: 25px;
     color: white;
 }
+@media screen and (min-width:500px){
+    footer::before{
+        visibility: visible;
+    }
+}
+@media screen and (max-width:499px){
+    footer::after{
+        position: absolute;
+        top: 800%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:black;
+        width: 1300px;
+    }
+}
+.main-article-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+

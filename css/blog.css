@@ -1,0 +1,36 @@
+#head{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+    color: #3f3f3f;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    
+}
+nav ul li a{
+    margin: 10px;
+}
+nav ul li:hover{
+    background-color: grey;
+    text-decoration-color: white;
+}
+
+
+
+.main-article-category,.author-name:hover{
+    color:rgba(0,0,0, 0.4)
+    
+}
+.main-article-category:hover,.main-article-title:hover,.author-name{
+    text-decoration: underline;
+}
+.main-article-category{
+    font-size: 50px;
+}
+.author-name{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.row{
+    margin: 50px;
+}
