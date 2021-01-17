@@ -1,5 +1,5 @@
 #head{
-    font-size: 15px;
+    font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 25px;
     color: #3f3f3f;
@@ -49,7 +49,7 @@ nav ul li:hover{
     content: '';
     width: 62%;
     height: 125px;
-    bottom: -50px;
+    bottom: -5px;
     left: 0;
     background:#fff;
     transform: skewY(10deg);
@@ -59,7 +59,7 @@ nav ul li:hover{
     content: '';
     width: 62%;
     height: 125px;
-    bottom: -50px;
+    bottom: -5px;
     right: 0;
     background:#fff;
     transform: skewY(-10deg);
@@ -113,6 +113,7 @@ nav ul li:hover{
     font-family:  'Arial Narrow Bold', sans-serif;
     text-align: center;
     margin-left: 150px;
+    
 }
 footer{
     padding-top: 50px;
@@ -132,11 +133,13 @@ footer{
 }
 .jumbotron{
     position: absolute;
-    top: 430%;
+    top: 400%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:black;
-    width: 1300px;
+    width: 1000px;
+    padding-top: 50px;
+    
     
 }
 h3{
@@ -153,11 +156,11 @@ h3{
 }
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: wrap;
 }
 .ita{
     position: absolute;
-    top: 465%;
+    top: 460%;
     left: 30%;
     transform: translate(-50%, -50%);
     color:white;
@@ -167,7 +170,7 @@ h3{
     list-style-type: none;
     color: white;
     position: absolute;
-    top: 465%;
+    top: 458%;
     left: 70%;
     transform: translate(-50%, -50%);
     font-size: 30px;
