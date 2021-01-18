@@ -17,9 +17,61 @@ nav ul li:hover{
 
 
 
-.container{
+.contain{
     padding: 50px;
+    background-color:lightgray;
+    align-items: center;
 }
 .btn btn-primary{
     margin: 20px;
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.div{
+    margin-top: 100px;
+    
+}
+.un{
+    list-style-type: none;
+    color: white;
+}
+.l{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    
+
+}
+.l a{
+    color:white;
+    float: right;
+    margin-left: 100px;
+   
+}
+.p{
+    
+    color: white;
+    margin-left: 300px;
+}
+footer{
+    background-color: darkblue;
+}
+.pa{
+    color: white;
+    text-align: center;
+    
+}
+.container{
+    background-color: aqua;
+    padding: 50px;
+    
 }
