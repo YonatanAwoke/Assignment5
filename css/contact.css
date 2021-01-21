@@ -15,8 +15,6 @@ nav ul li:hover{
     text-decoration-color: white;
 }
 
-
-
 .contain{
     padding: 50px;
     background-color:lightgray;
@@ -43,27 +41,25 @@ h4{
 .un{
     list-style-type: none;
     color: white;
+    text-align: center;
 }
 .l{
     display: inline;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     
 
 }
 .l a{
     color:white;
-    float: right;
-    margin-left: 100px;
+    padding: 50px;
    
 }
-.p{
-    
-    color: white;
-    margin-left: 300px;
-}
 footer{
-    background-color: darkblue;
+    background-color: rgb(3, 12, 39);
+    background-repeat: no-repeat;
+        
+    
 }
 .pa{
     color: white;
@@ -71,7 +67,7 @@ footer{
     
 }
 .container{
-    background-color: aqua;
+    background-image: url(../image/pexels-suzy-hazelwood-2382325.jpg);
     padding: 50px;
     
 }
